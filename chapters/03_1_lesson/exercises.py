@@ -14,15 +14,6 @@ def right_justify(input):
 right_justify('monty')
 
 
-# Do your work for Exercise 1 here
-
-print("Ch 3 Exercise 1: Not implemented") # Delete this line when you write your code!
-
-
-def do_twice(arg):
-    nc(arg)
-    func(arg)
-
 
 
 
@@ -30,14 +21,70 @@ def do_twice(arg):
 
 print("********** Ch 3 Exercise 2 **********")
 
-# Do your work for Excercise 2 here.
 
-print("Ch 3 Exercise 2: Not implemented") # Delete this line when you write your code!
+def do_thrice(f):
+    f()
+    f()
+    f()
+def print_spam():
+    print('spam')
 
+
+do_thrice(print_spam)
+
+def hi():
+    print('hi')
+
+do_thrice(hi)
 
 
 print("********** Ch 3 Exercise 3 **********")
 
-# Do your work for Exercise 3 here.
+def top_grid():
+    print('+ - - - + - - - +')
 
-print("Ch 3 Exercise 3: Not implemented") # Delete this line when you write your code!
+def mid_grid():
+    print('|       |       |')
+
+
+def make_squares():
+    top_grid()
+    do_thrice(mid_grid)
+    top_grid()
+
+def make_grid():
+    make_squares()
+    do_thrice(mid_grid)    
+    top_grid()
+
+make_grid()
+
+def end_corner():
+    print('+')
+
+def corner():
+    print('+ ', end='')    
+
+def middle():
+    print('- ', end='')
+
+def edge():
+    print('|       ', end='')
+
+def draw_grid():
+    corner()
+    do_thrice(middle)
+    corner()
+    do_thrice(middle)
+    end_corner()
+    do_thrice(edge)
+    do_thrice(edge)
+    do_thrice(edge)
+    corner()
+    do_thrice(middle)
+    corner()
+    do_thrice(middle)
+    end_corner()
+    
+
+draw_grid()

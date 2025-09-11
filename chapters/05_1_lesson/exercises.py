@@ -4,9 +4,6 @@
 
 print("********** Ch 5 Exercise 1 **********")
 
-# Do your work for Exercise 1 here
-
-print("Ch 5 Exercise 1: Not implemented") # Delete this line when you write your code!
 
 
 
