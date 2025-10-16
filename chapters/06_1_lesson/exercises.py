@@ -1,21 +1,9 @@
-
-##### Template for Chapter 5.14, Exercises 1 - 4 ######
-
-
 print("********** Ch 6 Exercise 1 **********")
 
-print("""
-Type your work for Exercise 1 here
 
-Ch 6 Exercise 1: Not implemented # Delete this line when you write your code!
-""")
 
 
 print("********** Ch 6 Exercise 2 **********")
-
-# Do your work for Excercise 2 here.
-
-print("Ch 6 Exercise 2: Not implemented") # Delete this line when you write your code!
 
 
 
