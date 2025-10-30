@@ -9,13 +9,26 @@ print("********** Ch 6 Exercise 2 **********")
 
 print("********** Ch 6 Exercise 3 **********")
 
-# Exercise 3 should be worked in a new file called palindrome.py
-
-
-
 print("********** Ch 6 Exercise 4 **********")
+a =4
+b =2
+def is_power():
+    if a/b >= b:
+            print
+            return is_power()
+    else:
+        print ('it is not a power')
 
-# Do your work for Exercise 4 here.
+is_power()
+
+
+
+
+
+
+
+
+
 
 print("Ch 6 Exercise 4: Not implemented") # Delete this line when you write your code!
 
