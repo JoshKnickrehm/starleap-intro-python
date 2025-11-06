@@ -10,19 +10,22 @@ print("********** Ch 6 Exercise 2 **********")
 print("********** Ch 6 Exercise 3 **********")
 
 print("********** Ch 6 Exercise 4 **********")
-a =4
-b =2
-def is_power():
-    if a/b >= b:
-            print
-            return is_power()
+
+def is_power(b, c):
+    if c == 1:
+        return True
+    elif c == b:
+        return True
+    elif c > b:
+        print(int(c))
+        return is_power(b, c/b)
     else:
-        print ('it is not a power')
+        return False
 
-is_power()
-
-
-
+while True:
+    big_number = int(input('Give me a number'))
+    result = is_power(2, big_number)
+    print (result)
 
 
 
