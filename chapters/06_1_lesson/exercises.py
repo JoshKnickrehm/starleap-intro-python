@@ -1,7 +1,3 @@
-print("********** Ch 6 Exercise 1 **********")
-
-
-
 
 print("********** Ch 6 Exercise 2 **********")
 
