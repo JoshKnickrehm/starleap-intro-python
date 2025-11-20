@@ -29,7 +29,7 @@ james.pensize(5)
 bob.pensize(5)
 for i in range(100):
     width = 10 + i*10 % 100
-    james.pencolor(rgb_to_hex(i*10 % 200,100,200))
+    james.pencolor(rgb_to_hex(i*10 % 10,100,200))
     bob.pd()
     bob.rt(36)
 
